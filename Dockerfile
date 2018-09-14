@@ -2,7 +2,7 @@ FROM openjdk:8u171-jre-alpine3.8
 
 LABEL maintainer="cgiraldo@gradiant.org"
 LABEL organization="gradiant.org"
-ARG VERSION=3.4.0
+ARG VERSION=3.2.0
 ENV VERSION=$VERSION
 ENV BIND_HOST=0.0.0.0
 ENV PORT=8000
